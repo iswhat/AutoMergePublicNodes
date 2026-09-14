@@ -1,10 +1,28 @@
 proxies:
+- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
 - name: 俄罗斯
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: gta.internet-card.sbs
   skip-cert-verify: true
   sni: gta.internet-card.sbs
+  tls: false
+  type: hysteria2
+- name: '[ 🇷🇺 ] | @Cfox_SerVer'
+  password: 41edb44c8e
+  port: 11592
+  server: srv-17e124.21freedom.net
+  skip-cert-verify: true
+  sni: 'off'
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
@@ -17,3 +35,20 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 🇸🇪SE_5|1.0MB/s
+  network: grpc
+  port: '8443'
+  reality-opts:
+    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
+    short-id: '!!str '
+  server: 170.168.99.8
+  servername: cdn.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
+  xudp: true
