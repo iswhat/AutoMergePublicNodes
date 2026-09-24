@@ -1,19 +1,14 @@
 proxies:
-- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 🇰🇷KR_1|1.3MB/s
   network: ws
-  port: 8880
-  server: 108.162.196.30
+  port: 2096
+  server: 123.111.169.70
+  servername: mia12.pages.dev
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
   ws-opts:
     headers:
-      Host: vms.lifetime59.workers.dev
-- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 72.167.230.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
+      Host: mia12.pages.dev
+    path: /TG:@MiaChatChannel
