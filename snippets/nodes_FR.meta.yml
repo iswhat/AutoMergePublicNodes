@@ -1,9 +1,7 @@
 proxies:
-- name: 🇫🇷FR_1|1.1MB/s
-  password: None
-  port: 443
-  server: 149.102.245.65
+- name: 🇫🇷FR_1|4.6MB/s
+  port: 6103
+  server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
